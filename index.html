@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México - Colores Alineados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Bandera de México</h1>
+        <p class="subtitle">Descubre el significado detrás de los colores de la bandera mexicana y personalízalos con los controles.</p>
+        
+        <div class="flag-container">
+            <div class="color-section">
+                <div class="meaning">Esperanza</div>
+                <div id="green-band" class="color-band"></div>
+                <div class="control">
+                    <input type="range" id="green-slider" min="0" max="255" value="0">
+                    <div class="hex-code" id="green-hex">#006847</div>
+                </div>
+            </div>
+            
+            <div class="color-section">
+                <div class="meaning">Unidad</div>
+                <div id="white-band" class="color-band">
+                    <img id="national-shield" src="./img/escudo.svg" alt="Escudo Nacional de México">
+                </div>
+                <div class="control">
+                    <div class="hex-code">#FFFFFF</div>
+                </div>
+            </div>
+            
+            <div class="color-section">
+                <div class="meaning">Sangre</div>
+                <div id="red-band" class="color-band"></div>
+                <div class="control">
+                    <input type="range" id="red-slider" min="0" max="255" value="206">
+                    <div class="hex-code" id="red-hex">#CE1126</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-container">
+            <h2>Significado de los Colores</h2>
+            <p><strong>Verde:</strong> Simboliza la esperanza y la victoria.</p>
+            <p><strong>Blanco:</strong> Representa la unidad y la pureza de los ideales del pueblo mexicano.</p>
+            <p><strong>Rojo:</strong> Hace honor a la sangre derramada por los héroes de la patria.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-name">Bandera de México</div>
+            </div>
+                <div>Taller Avanzado de Desarrollo de Software</div>
+            </div>
+            <div class="footer-info">
+                <div>Luis Enrique Cabrera Garcia 22200205</div>
+                <div>Rodrigo Axel Noeggerath Medina 22200210</div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
